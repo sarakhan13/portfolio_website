@@ -1,0 +1,231 @@
+body {
+  margin-top: 0;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  line-height: 2;
+  color: #ffefef;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+h1:hover {
+  color: #f6d7a7;
+}
+h2 {
+  font-family: "Satisfy", sans-serif;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  padding: 5%;
+  margin: 0 5px;
+  font-size: 20px;
+  display: inline-block;
+  color: #ffd369;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  width: 3%;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 0;
+}
+/* page 1 */
+
+#title-container {
+  background-color: #a267ac;
+  padding-bottom: 10px;
+}
+
+.container-fluid {
+  padding: 5px;
+  border-radius: 1%;
+  text-align: center;
+  padding: 2%;
+}
+
+/* navbar */
+
+.navbar {
+  padding-bottom: 1.5%;
+}
+
+.navbar-brand {
+  font-family: "Satisfy", sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #f6d7a7;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #ffd369;
+  font-size: 1.2rem;
+}
+
+.welcome-div {
+  padding-top: 2%;
+  text-align: center;
+}
+
+.content-welcome {
+  padding: 0 3%;
+  position: relative;
+  text-align: center;
+}
+
+.computer {
+  border-radius: 5px;
+}
+
+.welcome-p {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  padding-top: 10px;
+  color: #ffd369;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+}
+
+/* page 2 */
+
+#intro-container {
+  background-color: #ce7bb0;
+  padding: 20px;
+  text-align: center;
+}
+
+.long-sec {
+  font-family: "Roboto Mono", monospace;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.label {
+  font-size: 20px;
+  background-color: #222831;
+  color: #ffd369;
+  padding: 8px;
+  margin: 1%;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 200px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.p-two {
+  padding: 1% 10%;
+  max-width: 100%;
+  text-align: justify;
+  color: white;
+}
+
+.intro-h {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  font-family: "Satisfy", sans-serif;
+}
+
+.intro-content {
+  color: #6867ac;
+  padding: 5%;
+}
+
+.card {
+  margin: 5px;
+}
+
+/* second section of page 2 */
+
+.h2-p2 {
+  color: #ffd369;
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 30px 0 15px;
+  text-align: center;
+}
+
+hr {
+  opacity: 0;
+}
+
+/* page 3 */
+
+#interest-container {
+  padding: 3%;
+  background-color: #a267ac;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+.animation-sec {
+  background-color: #ffbcd1;
+  padding: 50px 50px 0;
+  height: 500px;
+}
+.h1-animation {
+  font-family: "Roboto Mono", monospace;
+  color: #393e46;
+}
+
+.typewrite {
+  color: #6867ac;
+}
+.typewrite:hover {
+  color: #d6e5fa;
+}
+
+#footer-container {
+  background-color: #6867ac;
+  padding: 2% 20%;
+  text-align: center;
+}
+
+.footer-para {
+  font-family: "Roboto Mono", monospace;
+  line-height: normal;
+  color: #ffefef;
+  font-size: 15px;
+}
